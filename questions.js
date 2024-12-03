@@ -1,8 +1,30 @@
 // questions.js
 
-const questions = [
+const questions = [ {
+    question_text: "In which Disney room do you come up with ideas?",
+    question_type: "multiple_choice",
+    options: ["Swimming Room", "Critic Room", "Realist Room", "Dreamer Room"],
+    correct_option: 3,
+    correct_explanation: `In the Dreamer room there are no wrong answers so you can come up with lots of ideas.
+                           The Realist room is where you narrow them down to what you can realistically do.
+                           The Critic room is where you look at it from all angles and pick holes in ideas.
+                           The Swimming Room is a pool, probably.`,
+},
+
+{
+    question_text: "When we leave the school of code how should we think of ourselves",
+    question_type: "multiple_choice",
+    options: ["Junior developer", "senior without experience", "Senior developer", "expert coder",],
+    correct_option: 1,
+    correct_explanation: `Although our job title may be junior our mindset should be that of a senior.
+                          We are aiming to become seniors without experienece.`
+                           
+                           
+},
   
 ];
+
+
 
 // Don't worry about this, we're just exporting the questions
 module.exports = questions;
@@ -18,4 +40,15 @@ let question1 = {
                            The Realist room is where you narrow them down to what you can realistically do.
                            The Critic room is where you look at it from all angles and pick holes in ideas.
                            The Swimming Room is a pool, probably.`,
+}// Add your questions here
+
+let question2 = {
+    question_text: "When we leave the school of code how should we think of ourselves",
+    question_type: "multiple_choice",
+    options: ["Junior developer", "senior without experience", "Senior developer", "expert coder",],
+    correct_option: 1,
+    correct_explanation: `Although our job title may be junior our mindset should be that of a senior.
+                          We are aiming to become seniors without experienece.`
+                           
+                           
 }// Add your questions here
