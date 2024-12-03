@@ -79,14 +79,14 @@ const questions = [ {
   question_text: "What was the name of the 1st quest speaker",
   question_type: "multiple_choice",
   options: ["Ira Rainey", "Barry Windy", "Steven Gerrad", "Carl Pilkinton",],
-  correct_option: o,
+  correct_option: 0,
   correct_explanation: `The correct name is Ira Rainey.`
 } ,
 {
   question_text: "What is the name of learning style used at the school of code",
   question_type: "multiple_choice",
   options: ["Just late", "Just incase", "Just in time", "Just learn",],
-  correct_option: o,
+  correct_option: 2,
   correct_explanation: `The correct answer is Just in time learning , its a method used to learn what is needed not everything.`
 },
   
