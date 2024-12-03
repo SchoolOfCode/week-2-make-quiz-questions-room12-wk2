@@ -50,6 +50,45 @@ const questions = [ {
   If it's only 95% working, it doesn't count yet, and is equivalent to having nothing. Build something that works first! Optimise later.`
                                                  
 },
+
+{
+  question_text: "What handsome man was the list of learning styles in reference to?",
+  question_type: "multiple_choice",
+  options: ["Chris", "Luke", "Rincewind", "Gandalf",],
+  correct_option: 0,
+  correct_explanation: `Although Luke, Rincewind, and Gandalf are all incredibly handsome men,
+                       Challenge, Hunger, Retrieval, Interleaved Practice, and Spaced Repetition spell out CHRIS!`
+},
+{
+  question_text: "What is the number 1 thing that you can do to help retain knowledge?",
+  question_type: "multiple_choice",
+  options: ["Spend another hour revising", "Take a 20 minute break", "Make notes and reread them", "Get a good sleep",],
+  correct_option: 3,
+  correct_explanation: `Powering through a reading as much as possible quickly loses its effectiveness - the number one thing
+                      to do that will help the knowledge massage into your brain is to get consistent good sleep`
+},
+{
+  question_text: "What is NOT a tenet of the Agile manifesto?",
+  question_type: "multiple_choice",
+  options: ["Individuals and interactions over processes and tools", "Working software over comprehensive documentation", "Customer collaboration over contract negotiation", "Working smarter over working hard",],
+  correct_option: 3,
+  correct_explanation: `Working smarter (not harder) is a good idea, and maximising your efficiency through good learning practices is very beneficial,
+                          however it is not one of the tenets of the Agile manifesto`
+},
+{
+  question_text: "What was the name of the 1st quest speaker",
+  question_type: "multiple_choice",
+  options: ["Ira Rainey", "Barry Windy", "Steven Gerrad", "Carl Pilkinton",],
+  correct_option: o,
+  correct_explanation: `The correct name is Ira Rainey.`
+} ,
+{
+  question_text: "What is the name of learning style used at the school of code",
+  question_type: "multiple_choice",
+  options: ["Just late", "Just incase", "Just in time", "Just learn",],
+  correct_option: o,
+  correct_explanation: `The correct answer is Just in time learning , its a method used to learn what is needed not everything.`
+},
   
 ];
 
