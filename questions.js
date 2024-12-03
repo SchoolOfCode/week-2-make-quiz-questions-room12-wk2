@@ -98,6 +98,3 @@ const questions = [ {
 module.exports = questions;
 
 
-                           
-                           
-}// Add your questions here
